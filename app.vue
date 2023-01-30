@@ -4,6 +4,7 @@
     <AppNav></AppNav>
     <NuxtLoadingIndicator />
     <NuxtPage />
+    
     <AppFooter></AppFooter>
   </div>
 </template>
