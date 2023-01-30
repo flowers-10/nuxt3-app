@@ -1,0 +1,23 @@
+{
+  "private": true,
+  "scripts": {
+    "build": "nuxt build --mode prod",
+    "dev": "nuxt dev --mode dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "@nuxtjs/i18n": "^8.0.0-beta.7",
+    "@nuxtjs/tailwindcss": "^6.1.3",
+    "@pinia-plugin-persistedstate/nuxt": "^1.0.0",
+    "nuxt": "3.0.0"
+  },
+  "dependencies": {
+    "@pinia/nuxt": "^0.4.6",
+    "axios": "^1.2.1",
+    "daisyui": "^2.45.0",
+    "less": "^4.1.3",
+    "pinia": "^2.0.28"
+  }
+}

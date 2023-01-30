@@ -1,0 +1,137 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+html{
+  height: 100%;
+}
+body{
+  min-height: 100%;
+}
+.wrap{
+  width: 1200px;
+  margin: 0 auto;
+}
+ul{
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.el-button{
+  padding: 8px 20px;
+  background: #0079FE;
+}
+.el-button--default{
+  background: #fff;
+}
+.el-message-box .el-button--default{
+  background: #fff;
+  color: #0079FE;
+}
+.el-message-box .el-button--primary{
+  background: #0079FE;
+  color: #fff;
+}
+.clear::after{
+  clear: both;
+  display: block;
+  content: '';
+}
+.paginationBox{
+  padding-top: 20px;
+  text-align: center;
+}
+.paginationBox .el-pagination__editor.el-input{
+  width: 50px;
+}
+
+.crumbs{
+  height: 44px;
+  padding: 11px;
+}
+.crumbs span{
+  font-size: 14px;
+  color: #262626;
+  display: inline-block;
+}
+
+.el-breadcrumb{
+  height: 44px;
+  padding: 12px;
+  line-height: 20px;
+}
+.el-breadcrumb__inner a, .el-breadcrumb__inner.is-link {
+  color: #262626;
+  font-weight: 500;
+}
+.el-breadcrumb__separator{
+  color: #262626;
+}
+span.active-color {
+  color: #0079FE;
+  margin: 0 5px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+.is-user-select-none{
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+span.blue-color{
+  color: #0079FE;
+  margin: 0 5px;
+  /*cursor: pointer;*/
+  user-select:none;
+}
+span.stop-color{
+  color: #df0000;
+  margin: 0 5px;
+  /*cursor: pointer;*/
+  user-select:none;
+}
+span.success-color{
+  color: #67c23a;
+  margin: 0 5px;
+  /*cursor: pointer;*/
+  user-select:none;
+}
+span.warning-color{
+  color:#e6a23c;
+  margin: 0 5px;
+  /*cursor: pointer;*/
+  user-select:none;
+}
+.el-input{
+  width: 240px;
+}
+.el-input__inner{
+  height: 36px;
+  line-height: 36px;
+}
+.clearFix::after{
+  content: '';
+  clear: both;
+  display: block;
+}
+span.zy{
+  display: inline-block;
+  border: 1px solid #df0000;
+  color: #df0000;
+  font-size: 12px;
+  line-height: 15px;
+  padding: 0 5px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  margin-right: 5px;
+}
